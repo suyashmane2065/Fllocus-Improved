@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Focus Tracker</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎯 Focus Tracker</h1>
+
+    <!-- CURRENT WEBSITE -->
+    <div class="website">
+        <h3>🌐 Current Website</h3>
+        <p id="website">Loading...</p>
+    </div>
+
+    <!-- TIMER -->
+    <div class="timer-section">
+
+        <h2 id="timer">25:00</h2>
+
+        <p id="mode">Focus Session</p>
+
+        <button id="startBtn">▶ Start</button>
+        <button id="pauseBtn">⏸ Pause</button>
+        <button id="resetBtn">↻ Reset</button>
+
+    </div>
+
+    <!-- DAILY GOAL -->
+    <div class="limit-section">
+
+        <label for="timeLimit">
+            Daily Focus Goal (minutes)
+        </label>
+
+        <input
+            type="number"
+            id="timeLimit"
+            value="120"
+            min="15"
+        >
+
+        <button id="saveLimit">
+            Set Goal
+        </button>
+
+        <p id="goalSaved"></p>
+
+    </div>
+
+    <!-- STATUS -->
+    <div class="status">
+
+        <strong>Productivity Status</strong>
+
+        <p id="statusText">
+            Within Limit
+        </p>
+
+    </div>
+
+    <!-- PRODUCTIVITY -->
+    <div class="productivity">
+
+        <h3>📊 Productivity</h3>
+
+        <h2 id="score">0%</h2>
+
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+
+    </div>
+
+    <!-- WEBSITE USAGE -->
+    <div class="usage">
+
+        <h3>📈 Website Usage</h3>
+
+        <div id="usageList">
+            No usage data yet.
+        </div>
+
+    </div>
+
+    <!-- TASKS -->
+    <div class="tasks">
+
+        <h3>📚 Study Tasks</h3>
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter task..."
+        >
+
+        <button id="addTask">
+            Add
+        </button>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+
+</html>

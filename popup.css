@@ -1,0 +1,341 @@
+body {
+
+    width: 360px;
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #141827,
+            #252b45
+        );
+
+    color: white;
+
+}
+
+
+.container {
+
+    padding: 20px;
+
+}
+
+
+h1 {
+
+    text-align: center;
+
+    margin-top: 0;
+
+    font-size: 25px;
+
+}
+
+
+.website {
+
+    background: #30364f;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.website h3 {
+
+    margin: 0 0 5px;
+
+    font-size: 14px;
+
+}
+
+
+.website p {
+
+    margin: 0;
+
+    color: #9ca3ff;
+
+    word-break: break-all;
+
+}
+
+
+/* TIMER */
+
+.timer-section {
+
+    text-align: center;
+
+    background: #30364f;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+}
+
+
+#timer {
+
+    font-size: 48px;
+
+    margin: 10px;
+
+}
+
+
+#mode {
+
+    color: #b5bad3;
+
+}
+
+
+button {
+
+    padding: 9px 12px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    margin: 3px;
+
+    background: #6366f1;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+
+button:hover {
+
+    opacity: .85;
+
+}
+
+
+.limit-section {
+
+    margin-top: 15px;
+
+}
+
+
+.limit-section label {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+}
+
+
+input {
+
+    padding: 9px;
+
+    border-radius: 7px;
+
+    border: 1px solid #555d7c;
+
+    background: #202438;
+
+    color: white;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+
+.limit-section button {
+
+    width: 100%;
+
+    margin: 8px 0;
+
+}
+
+
+/* STATUS */
+
+.status {
+
+    background: #30364f;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+}
+
+
+#statusText {
+
+    color: #4ade80;
+
+    font-weight: bold;
+
+}
+
+
+/* PRODUCTIVITY */
+
+.productivity {
+
+    background: #30364f;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+}
+
+
+#score {
+
+    text-align: center;
+
+    font-size: 35px;
+
+}
+
+
+.progress {
+
+    height: 10px;
+
+    background: #171a28;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+}
+
+
+#progressBar {
+
+    width: 0%;
+
+    height: 100%;
+
+    background: #4ade80;
+
+    transition: .4s;
+
+}
+
+
+/* WEBSITE USAGE */
+
+.usage {
+
+    background: #30364f;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+}
+
+
+.usage-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 6px 0;
+
+    border-bottom: 1px solid #454b66;
+
+}
+
+
+/* TASKS */
+
+.tasks {
+
+    background: #30364f;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+}
+
+
+.tasks input {
+
+    width: 70%;
+
+}
+
+
+.tasks button {
+
+    width: 25%;
+
+}
+
+
+ul {
+
+    padding: 0;
+
+    list-style: none;
+
+}
+
+
+.task {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    padding: 7px 0;
+
+}
+
+
+.task span {
+
+    flex: 1;
+
+}
+
+
+.completed {
+
+    text-decoration: line-through;
+
+    color: #888;
+
+}
